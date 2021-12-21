@@ -1,0 +1,104 @@
+.dropdown-menu {
+    background-color: #3C66AA;
+}
+.idelp-color-1 {
+	background-color: #3C66AA;
+}
+.idelp-gradient {
+    background:linear-gradient(40deg,#FFF,#3C66AA)!important
+}
+.md-tabs {
+    position: relative;
+    z-index: 1;
+    padding: .7rem;    
+    margin-bottom: -20px;
+    background-color: rgba(0,0,0,.03);
+    border: 0;
+    border-radius: .25rem;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+}
+.indigo {
+    background-color: #3C66AA !important;
+}
+.nav-tabs {
+    border-bottom: 1px solid #ccc;
+}
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+.nav-justified .nav-item {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    text-align: center;
+   
+}
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+.nav li {
+    list-style: none;
+}
+.waves-effect {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+.md-tabs .nav-link {
+    color: #007bff;
+    border: 0;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+.nav a {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    font-weight: bold;
+}
+.tab-content {
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-top: 2rem;
+}
+.tab-content > .active {
+    display: block;
+}
